@@ -1,0 +1,39 @@
+--- to kill the server use ctrl + c
+
+////////////////////////////////////
+mongodb Organization name : Abhishek's Org
+mongodb project name: Lifeline Messenger
+username : abhishekbedare
+password : eRvZB8H6mMg2iHN
+
+//////////////////////////////////
+
+
+Creating React JS App with Chakra UI - MERN Stack Chat App with Socket.IO #5
+
+error occurred chatname were not rendered 
+
+video 5
+
+#creating react app
+use 
+$ npx create-react-app messenger-frontend
+
+#start the backend server using different terminal 
+use $ npm start
+
+#to move to frontend use cd messenger-frontend
+
+#to avoid cohort error add "proxy": "http://127.0.0.1:5000", in package.json of the react app
+
+#Our app is having multiple pages so we need to have react router dom 
+ here we are using version 5 of the react router dom
+
+$ npm install react-router-dom@5
+
+# To use react router we have to enclose the app with <BrowserRouter> <BrowserRouter/>
+   go to index.js and enclose the app
+and also  import { BrowserRouter } from "react-router-dom";
+
+
+# Now creating routes for home and chats page

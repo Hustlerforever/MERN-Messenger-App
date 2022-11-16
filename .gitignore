@@ -1,0 +1,4 @@
+node_modules/
+DESC
+.env
+messenger_frontend/node_modules
